@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Prognozz",
+    "version": "0.1",
+    "content_scripts": [
+	{
+	    "matches": [
+		"file://*my_prognozz.html"
+	    ],
+	    "js": ["jquery-2.2.4.min.js", "content_2.js"]
+	}
+    ]
+}
