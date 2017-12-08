@@ -5,9 +5,9 @@
     "content_scripts": [
 	{
 	    "matches": [
-		"file://*my_prognozz.html"
+		"https://dwl-moscow.drweb.com/cgi-bin/1/my.pl"
 	    ],
-	    "js": ["jquery-2.2.4.min.js", "content_2.js"]
+	    "js": ["jquery-2.2.4.min.js", "content.js"]
 	}
     ]
 }
