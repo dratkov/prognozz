@@ -5,7 +5,7 @@
     "content_scripts": [
 	{
 	    "matches": [
-		"https://dwl-moscow.drweb.com/cgi-bin/1/my.pl"
+		"https://*eb.com/cgi-bin/1/my.pl"
 	    ],
 	    "js": ["jquery-2.2.4.min.js", "content.js"]
 	}
