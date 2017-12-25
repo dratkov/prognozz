@@ -54,7 +54,7 @@ function showMenu(data) {
 	i = 0;
 
     for (i = 0; i < len; i++) {
-	if(!nodes[i].caption.match(/Бизнес.ланч/i)) {
+	if(!nodes[i].caption.match(/с 12 до 17/i)) {
 	    continue;
 	}
 
